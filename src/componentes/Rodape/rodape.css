@@ -1,0 +1,64 @@
+.footer {
+    background: linear-gradient(to bottom, #84f1d6, #012546f7);
+    color: #FFF;
+    padding: 20px; /* Reduzido para evitar excesso de espaço */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Permite que os itens se movam para uma nova linha em telas menores */
+}
+
+.footer section {
+    flex: 1; /* Faz com que todos os elementos dentro do footer ocupem o mesmo espaço disponível */
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo dentro de cada seção */
+    align-items: center; /* Alinha verticalmente o conteúdo dentro de cada seção */
+}
+
+.footer ul {
+    list-style: none; /* Remove os marcadores de lista */
+    padding: 0; /* Remove o padding padrão */
+    display: flex;
+    gap: 16px; /* Espaço entre os itens */
+}
+
+.footer ul li {
+    display: flex;
+    justify-content: center; /* Centraliza os itens dentro da lista */
+    margin-right: 0; /* Remove a margem direita */
+}
+
+.footer ul li a {
+    display: block;
+    filter: invert(0.5) sepia(1) saturate(5) hue-rotate(200deg);
+}
+
+.footer .gif img {
+    border-radius: 25px;
+    max-width: 25%; /* Define a largura máxima do GIF */
+}
+
+.footer p {
+    text-align: center; /* Centraliza o texto do parágrafo */
+    margin: 0; /* Remove a margem padrão */
+}
+
+/* Media queries para telas menores */
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column; /* Alinha os itens do footer verticalmente em telas menores */
+        align-items: center; /* Centraliza os itens do footer */
+    }
+
+    .footer section {
+        margin-bottom: 16px; /* Adiciona espaçamento entre seções */
+    }
+
+    .footer ul {
+        flex-direction: row; /* Alinha os itens da lista horizontalmente */
+    }
+
+    .footer ul li {
+        margin-right: 16px; /* Espaçamento entre itens da lista */
+    }
+}

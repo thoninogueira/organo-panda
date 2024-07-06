@@ -1,0 +1,10 @@
+.banner-cabecalho{
+    background: linear-gradient(to bottom, #012546f7, #84f1d6);
+    text-align: center;
+    box-shadow: 7px 7px 15px rgba(206, 54, 130, 0.8);
+}
+.banner-cabecalho img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 7px 7px 15px rgba(196, 185, 36, 0.8);
+}

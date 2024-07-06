@@ -1,0 +1,33 @@
+.time {
+    text-align: center;
+    padding: 32px;
+    background-blend-mode: multiply;
+    position: relative;
+    box-shadow: 7px 7px 15px rgba(196, 185, 36, 0.8);
+}
+
+.time h3 {
+    font-size: 32px;
+    font-family: 'Prata';
+    border-bottom: 4px solid;
+    display: inline-block;
+    padding-bottom: 8px;
+    
+}
+
+.time .colaboradores {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 32px;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+
+.input-cor {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    border-radius: 10%;
+    
+}
